@@ -19,55 +19,7 @@ a{
     text-decoration: none;
 }
 
-a[href="#bottomPage"]{
-    display: block;
-    width: 200px; /* Optional */
-    margin: 20px auto; /* Centers the link */
-    text-align: center;
-}
-
-a[href="#title"]{
-    display: block;
-    width: 200px; /* Optional */
-    text-align: left;
-}
-
-img[src="Images/CoffeeCup.jpg"]{
-    display: block;
-    margin: auto;
-    text-align: center;
-    border-radius: 30px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-}
-
-#welcome{
-    text-align: center;
-}
-
-.coffee{
-    font-family: 'Times New Roman', Times, serif, sans-serif;
-    background-color: #f8f5f2;
-    color: #3e2723;
-    margin: 0;
-    padding: 5;
-    font-size: 20px;
-    line-height: 1.5;
-}
-
-#orderCoffee{
-    display: block;
-    margin: auto;
-    margin: 20px auto; 
-    
-}
-
-#bottomPage{
-    text-align: justify;
-}
-
-.definition{
-    font-size: 30px;
-}
+/* HOME PAGE */
 
 
 /* Navigation Bar */
@@ -98,6 +50,56 @@ img[src="Images/CoffeeCup.jpg"]{
     transition: 0.3s;
     border-radius: 5px;
 }
+
+.definition{
+    font-size: 30px;
+}
+
+img[src="Images/CoffeeCup.jpg"]{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+a[href="#bottomPage"]{
+    display: block;
+    width: 200px; /* Optional */
+    margin: 20px auto; /* Centers the link */
+    text-align: center;
+}
+
+a[href="#title"]{
+    display: block;
+    width: 200px; /* Optional */
+    text-align: left;
+}
+
+#welcome{
+    text-align: center;
+}
+
+.coffee{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f8f5f2;
+    color: #3e2723;
+    margin: 0;
+    padding: 5;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+#orderCoffee{
+    display: block;
+    margin: auto;
+    margin: 20px auto; 
+    
+}
+
+#bottomPage{
+    text-align: justify;
+}   
 
 /* Menu Table Styling */
 #coffee_choices {
