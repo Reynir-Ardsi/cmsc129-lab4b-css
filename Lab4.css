@@ -94,15 +94,15 @@ a[href="#title"]{
 .coffee ol {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Creates two equal columns */
-    gap: 10px 40px; /* Space between rows and columns */
+    gap: 10px 40px;
     counter-reset: list-counter;
-    padding-left: 0; /* Removes default padding */ 
+    padding-left: 0;
     text-align: left;
     width: 100%; /* Adjusts width for two-column layout */
     border: 2px solid black;
     padding: 10px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
-    background-color: #f9f9f9; /* Light background */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
 }
 
 .coffee ol li {
@@ -116,7 +116,6 @@ a[href="#title"]{
     counter-increment: list-counter;
     position: absolute;
     left: 0;
-    font-weight: bold; /* Makes numbers stand out */
 }
 
 #orderCoffee{
