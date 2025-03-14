@@ -21,7 +21,6 @@ a{
 
 /* HOME PAGE */
 
-
 /* Navigation Bar */
 .navBar {
     background-color: #4b2c20;
@@ -84,17 +83,46 @@ a[href="#title"]{
     font-family: 'Times New Roman', Times, serif, sans-serif;
     background-color: #f8f5f2;
     color: #3e2723;
-    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 5;
     font-size: 20px;
     line-height: 1.5;
+    text-align: center;
+}
+
+.coffee ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates two equal columns */
+    gap: 10px 40px; /* Space between rows and columns */
+    counter-reset: list-counter;
+    padding-left: 0; /* Removes default padding */ 
+    text-align: left;
+    width: 100%; /* Adjusts width for two-column layout */
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    background-color: #f9f9f9; /* Light background */
+}
+
+.coffee ol li {
+    list-style: none; /* Removes default bullets/numbers */
+    position: relative;
+    padding-left: 25px; /* Creates space for manual numbering */
+}
+
+.coffee ol li::before {
+    content: counter(list-counter) "."; /* Inserts numbers */
+    counter-increment: list-counter;
+    position: absolute;
+    left: 0;
+    font-weight: bold; /* Makes numbers stand out */
 }
 
 #orderCoffee{
     display: block;
     margin: auto;
     margin: 20px auto; 
-    
 }
 
 #bottomPage{
@@ -217,7 +245,6 @@ input[type="submit"]:hover {
 }
 
 /* Team Section */
-
 #about{
     border-style: solid;
     margin: 20;
@@ -289,6 +316,8 @@ ul {
 }
 
 img[src="Images/CoffeeDrop.jpg"]{
+    height: 320px;
+    width: 320px;
     display: block;
     margin: auto;
     text-align: center;
