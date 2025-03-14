@@ -245,6 +245,7 @@ ul {
 
 .coffee ul li {
     display: inline-block; /* Ensures list items stay in a row */
+    margin-bottom: 5%;
 }
 
 .coffeeVideo {
@@ -257,6 +258,7 @@ ul {
 #about{
     display: block;
     margin: auto;
+    margin-bottom: 5%;
     width: 80%;
     height: auto;
     list-style-type: none;
