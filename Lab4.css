@@ -220,22 +220,30 @@ input[type="submit"]:hover {
 }
 
 /* Video Section*/
-
 ul {
     list-style-type: none; /* Removes bullets */
-    padding: 0; /* Removes default padding */
-    margin: 0; /* Removes default margin */
+    padding: 0;
+    margin: 0;
+}
+
+.coffee ul {
+    display: flex; 
+    justify-content: center; /* Centers the videos */
+    gap: 30px;
+    flex-wrap: wrap; /* Allows videos to wrap on smaller screens */
+    padding: 0;
+    list-style: none;
+}
+
+.coffee ul li {
+    display: inline-block; /* Ensures list items stay in a row */
 }
 
 .coffeeVideo {
-    width: 80%;
-    max-width: 560px;
-    height: 315px;
-    margin: auto;
-    display: block;
-    border-radius: 8px;
+    width: 400px;
+    height: 320px;
+    border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    text-decoration: none;
 }
 
 #about{
