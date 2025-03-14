@@ -263,6 +263,8 @@ ul {
 }
 
 img[src="Images/CoffeeDrop.jpg"]{
+    height: 320px;
+    width: 320px;
     display: block;
     margin: auto;
     text-align: center;
