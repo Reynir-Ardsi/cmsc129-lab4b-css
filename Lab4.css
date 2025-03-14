@@ -19,6 +19,10 @@ a{
     text-decoration: none;
 }
 
+.definition{
+    font-size: 30px;
+}
+
 /* HOME PAGE */
 
 /* Navigation Bar */
@@ -48,10 +52,6 @@ a{
     cursor: pointer;
     transition: 0.3s;
     border-radius: 5px;
-}
-
-.definition{
-    font-size: 30px;
 }
 
 img[src="Images/CoffeeCup.jpg"]{
@@ -152,6 +152,8 @@ a[href="#title"]{
     margin: auto;
     border-collapse: collapse;
     margin-bottom: 20px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 #coffee_choices td {
@@ -223,9 +225,9 @@ p[id="tagline"]{
 
 .imgBanner[title = Logo]{
     position: absolute;
-    top: 1225px;
+    top: 1200px;
     display: block;
-    right: 250px;
+    right: 225px;
     width: 100px;
     border-radius: 130px;
 }
