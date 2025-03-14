@@ -200,6 +200,11 @@ input[type="submit"]:hover {
 }
 
 /* Team Section */
+
+#about{
+    border-style: solid;
+    margin: 20;
+}
 .teamMember {
     display: block;
     width: 120px;
