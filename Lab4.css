@@ -21,7 +21,6 @@ a{
 
 /* HOME PAGE */
 
-
 /* Navigation Bar */
 .navBar {
     background-color: #4b2c20;
@@ -94,7 +93,6 @@ a[href="#title"]{
     display: block;
     margin: auto;
     margin: 20px auto; 
-    
 }
 
 #bottomPage{
@@ -200,7 +198,6 @@ input[type="submit"]:hover {
 }
 
 /* Team Section */
-
 #about{
     border-style: solid;
     margin: 20;
